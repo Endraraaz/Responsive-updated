@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <title>shopX</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-top clear-fix">
+            <div class="head-align">
+                <div class="header-search">
+                    <form>
+                        <img src="images/Search1.png" alt="search icon">
+                        <input type="text" placeholder="SEARCH">
+                    </form>
+                </div>
+                <div class="header-logo"><a href=""><img src="images/Logo.png" alt="logo"></a></div>
+                <div class="header-nav">
+                    <ul>
+                        <li class="head-nav-icon"><a href=""><img src="images/user.png" alt="user icon"></a></li>
+                        <li class="head-nav-icon">
+                            <a href=""><img src="images/cart.png" alt="cart">
+                                <span class="cart-item-count">3</span>
+                            </a>
+                        </li>
+                        <li class="head-nav-icon"><a href=""><img src="images/justify-right.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav id="myLinks" class="navigation">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li class="active-nav-link"><a href="">SHOP</a></li>
+            <li><a href="">ELEMENT</a></li>
+            <li><a href="">PAGES</a></li>
+            <li><a href="">PORTFOLIO</a></li>
+            <li><a href="">BLOGS</a></li>
+        </ul>
+         <!-- "Hamburger Menu" -->
+         <a href="javascript:void(0);" class="head-icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <article class="slider">
+        <div class="article-mid-text">
+            <ul>
+                <li><img src="images/NewARRIVALS.png"></li>
+                <li><img src="images/SkyPlanter.png">
+                    <span class="article-price"><img src="images/layer_1800.png"></span>
+                </li>
+                <li><a class="shop-now-link" href=""><img src="images/ShopNow1.png"></a></li>
+            </ul>
+        </div>
+        <div class="article-side-text float-r clear-fix">
+            <ul class="slide-number">
+                <li><a href="">01</a></li>
+                <hr class="hr-full">
+                <li><a class="active-slide-number" href="">02</a></li>
+                <hr class="hr-20">
+                <li><a href="">03</a></li>
+            </ul>
+        </div>
+    </article>
+    <section>
+        <div class="section-nav">
+            <ul  id="myLinks" class="s-nav-first">
+                <li><a href=""><img src="images/justify-right.png"></a></li>
+                <li class="active-nav-link2"><a href="">ALL</a></li>
+                <li><a href="">HOME</a></li>
+                <li><a href="">LEARNING</a></li>
+                <li><a href="">FFICE</a></li>
+                <li><a href="">UTDOOR</a></li>
+                <!-- "Hamburger Menu" -->
+                <a href="javascript:void(0);" class="nav-icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <span class="section-search float-r clear-fix">
+                    <form>
+                        <img src="images/Search1.png" alt="search icon">
+                        <input type="text" placeholder="SEARCH">
+                    </form>
+                </span>
+            </ul>
+        </div>
+        <div class="section-items clear-fix">
+            <div class="section-align">
+                <div class="product">
+                    <div class="upper clear-fix">
+                        <div class="plinks">
+                            <a href="#"><img src="images/justify-right.png"></a>
+                            <a href="#"><img src="images/like.png"></a>
+                            <a href="#"><img src="images/menu-plus.png"></a>
+                        </div>
+                        <div class="item-image"><img src="images/lava-vase.jpg"></div>
+                    </div>
+                    <div class="lower">
+                        <div class="product-name-prices">
+                            <div class="product-name">Lava Vase</div>
+                            <div class="product-prices"><span class="discounted-price">$65.00</span><span
+                                    class="current-price">$35.00</span></div>
+                        </div>
+                        <div class="cart-adder-section">
+                            <img src="images/cart.png">
+                            <a class="cart-link" href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="upper clear-fix">
+                        <div class="plinks">
+                            <a href="#"><img src="images/justify-right.png"></a>
+                            <a href="#"><img src="images/like.png"></a>
+                            <a href="#"><img src="images/menu-plus.png"></a>
+                        </div>
+                        <div class="item-image"><img src="images/ceramic-pot.jpg" alt=""></div>
+                    </div>
+                    <div class="lower">
+                        <div class="product-name-prices">
+                            <div class="product-name">Ceramic Pot</div>
+                            <div class="product-prices"><span class="discounted-price">$65.00</span><span
+                                    class="current-price">$35.00</span></div>
+                        </div>
+                        <div class="cart-adder-section">
+                            <img src="images/cart.png">
+                            <a class="cart-link" href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="upper clear-fix">
+                        <div class="plinks">
+                            <a href="#"><img src="images/justify-right.png"></a>
+                            <a href="#"><img src="images/like.png"></a>
+                            <a href="#"><img src="images/menu-plus.png"></a>
+                        </div>
+                        <div class="item-image"><img src="images/dinnerware.jpg" alt=""></div>
+                    </div>
+                    <div class="lower">
+                        <div class="product-name-prices">
+                            <div class="product-name">Dinnerware Service</div>
+                            <div class="product-prices"><span class="discounted-price">$65.00</span><span
+                                    class="current-price">$35.00</span></div>
+                        </div>
+                        <div class="cart-adder-section">
+                            <img src="images/cart.png">
+                            <a class="cart-link" href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="upper clear-fix">
+                        <div class="plinks">
+                            <a href="#"><img src="images/justify-right.png"></a>
+                            <a href="#"><img src="images/like.png"></a>
+                            <a href="#"><img src="images/menu-plus.png"></a>
+                        </div>
+                        <div class="item-image"><img src="images/norm-jars.jpg" alt=""></div>
+                    </div>
+                    <div class="lower">
+                        <div class="product-name-prices">
+                            <div class="product-name">Norm Jars</div>
+                            <div class="product-prices"><span class="discounted-price">$65.00</span><span
+                                    class="current-price">$35.00</span></div>
+                        </div>
+                        <div class="cart-adder-section">
+                            <img src="images/cart.png">
+                            <a class="cart-link" href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="upper clear-fix">
+                        <div class="plinks">
+                            <a href="#"><img src="images/justify-right.png"></a>
+                            <a href="#"><img src="images/like.png"></a>
+                            <a href="#"><img src="images/menu-plus.png"></a>
+                        </div>
+                        <div class="item-image"><img src="images/floating-boat.jpg" alt=""></div>
+                    </div>
+                    <div class="lower">
+                        <div class="product-name-prices">
+                            <div class="product-name">Floating Boat</div>
+                            <div class="product-prices"><span class="discounted-price">$65.00</span><span
+                                    class="current-price">$35.00</span></div>
+                        </div>
+                        <div class="cart-adder-section">
+                            <img src="images/cart.png">
+                            <a class="cart-link" href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="upper clear-fix">
+                        <div class="plinks">
+                            <a href="#"><img src="images/justify-right.png"></a>
+                            <a href="#"><img src="images/like.png"></a>
+                            <a href="#"><img src="images/menu-plus.png"></a>
+                        </div>
+                        <div class="item-image"><img src="images/ceramic-pot2.jpg" alt=""></div>
+                    </div>
+                    <div class="lower">
+                        <div class="product-name-prices">
+                            <div class="product-name">Ceramic Pot</div>
+                            <div class="product-prices"><span class="discounted-price">$65.00</span><span
+                                    class="current-price">$35.00</span></div>
+                        </div>
+                        <div class="cart-adder-section">
+                            <img src="images/cart.png">
+                            <a class="cart-link" href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-section clear-fix">
+            <div class="featured-left">
+                <div class="circular-price">
+                    <img src="images/Ellipse3.png">
+                    <div class="inner-circle">
+                        <ul>
+                            <li><img src="images/layer_6500.png"></li>
+                            <li><img src="images/layer_3500.png"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-right">
+                <div class="grn-container">
+                    <div class="back-featured">Featured</div>
+                    <div class="text-container">
+                        <div class="small">Lava Vase</div>
+                        <div class="lower-title">Ceramic Planter with Wood Stand</div>
+                        <p class="main-text">Pellentesque habitant morbi tristique senectus et netus et
+                            malesuada fames ac turpis egestas. Aenean ultricies mi
+                            vitae est.
+                            Mauris placerat eleifend leo.
+                        </p>
+                        <div class="shopnow-link"><a class="shopnow-link" href="#">SHOP NOW</a></div>
+                    </div>
+                    <div class="pattern"><img src="images/featured-hider.png"></div>
+                </div>
+                <div class="outer">
+                    <div class="v-container">
+                        <div class="vertical-text">Wood Stand</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services clear-fix">
+            <div class="card-container">
+                <div class="card">
+                    <div><img src="images/delivery.png"></div>
+                    <div class="topic"><img src="images/FASTDELIVERY.png"></div>
+                    <div class="subtitle"><img src="images/Samedaydeliveryassoo.png"></div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div><img src="images/discount.png"></div>
+                    <div class="topic"><img src="images/SPECIALDISCOUNT.png"></div>
+                    <div class="subtitle"><img src="images/Getattractiveoffersd.png"></div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div><img src="images/checkout.png"></div>
+                    <div class="topic"><img src="images/SECURECHECKOUT.png"></div>
+                    <div class="subtitle"><img src="images/FullysecuredSSLcheck.png"></div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div><img src="images/money-back.png"></div>
+                    <div class="topic"><img src="images/MONEYRETURNS.png"></div>
+                    <div class="subtitle"><img src="images/100Moneybackguarntee.png"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top clear-fix">
+            <div class="f-container clear-fix">
+                <div class="content-left content">
+                    <div><a href="#"><img src="images/Logo.png"></a></div>
+                    <p>Watson Website Builder is a big library of
+                        pre-designed web elements which help you create
+                        website in few minutes.
+                    </p>
+                    <p class="read-more"><a href="#">Read more </a></p>
+                </div>
+                <div class="content-middle content clear-fix">
+                    <div class="head">Useful Link</div>
+                    <ul class="footer-links">
+                        <li><a href="#">Our Brands</a></li>
+                        <li><a href="#">Gift Vouchers</a></li>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">Latest Jobs</a></li>
+                        <li><a href="#">Help Topics</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Social Media</a></li>
+                    </ul>
+                </div>
+                <div class="content-right content">
+                    <div class="f-instagram">
+                        <div><a href=""><img src="images/insta-logo.png"></a></div>
+                        <div class="f-insta-list">
+                            <div><a href=""><img src="images/contain.png"></a></div>
+                            <div><a href=""><img src="images/contain2.png"></a></div>
+                            <div><a href=""><img src="images/contain1.png"></a></div>
+                            <div><a href=""><img src="images/contain4.png"></a></div>
+                            <div><a href=""><img src="images/contain3.png"></a></div>
+                            <div><a href=""><img src="images/contain5.png"></a></div>
+                            <div><a href=""><img src="images/contain6.png"></a></div>
+                            <div><a href=""><img src="images/contain7.png"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">&copy; 2002-2018 themexpert Inc. All rights reserved.</div>
+            <div class="payment-icons"><img src="images/payment.png" alt=""></div>
+        </div>
+    </footer>
+</body>
+
+</html>

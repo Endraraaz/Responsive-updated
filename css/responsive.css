@@ -1,0 +1,120 @@
+@media screen and (max-width:560px) {
+    .article-mid-text {
+        left: 20%;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .navigation a.head-icon{
+        display: none;
+    }
+    .s-nav-first a.nav-icon{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .article-mid-text{
+        width: 50%;
+    }
+    .navigation ul{
+        overflow: hidden;
+        position: relative;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .navigation a.head-icon{
+        position: relative;
+        background: white;
+        display: block;
+        top: 0;
+        left: 0;
+    }
+    .s-nav-first li{
+        overflow: hidden;
+        position: relative;
+    }
+    .s-nav-first li{
+        display: none;
+    }
+    .s-nav-first a.nav-icon{
+        position: relative;
+        background: white;
+        display: block;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .article-mid-text{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:985px) {
+    .product,
+    .card-container,
+    .content,
+    .featured-left,
+    .featured-right,
+    .grn-container {
+        width: 100%;
+        max-width: 100%;
+    }
+    .outer {
+        display: none;
+    }
+    .featured-left,
+    .featured-right,
+    .grn-container {
+        float: none;
+    }
+    .featured-section {
+        margin: 0;
+    }
+    .circular-price {
+        top: 25%;
+        left: 30%;
+    }
+    .content {
+        padding: 20px;
+    }
+    .header-nav {
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+    .header-nav ul {
+        float: right;
+        width: fit-content;
+        margin-right: 50px;
+    }
+    .header-search::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .head-nav-icon {
+        padding: 10px;
+    }
+    .header-search {
+        float: right;
+        width: 30%;
+    }
+    .header-logo {
+        width: fit-content;
+        float: left;
+    }
+    .f-insta-list img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:1140px) {
+    .circular-price {
+        left: 6%;
+    }
+}
